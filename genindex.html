@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Index &mdash; magnet 0.1.dev1+g773074f documentation</title>
+  <title>Index &mdash; magnet 0.1.dev1+ga97a021 documentation</title>
       <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
       <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
   <!--[if lt IE 9]>
@@ -13,7 +13,9 @@
         <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
         <script src="_static/jquery.js"></script>
         <script src="_static/underscore.js"></script>
+        <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
         <script src="_static/doctools.js"></script>
+        <script src="_static/sphinx_highlight.js"></script>
     <script src="_static/js/theme.js"></script>
     <link rel="index" title="Index" href="#" />
     <link rel="search" title="Search" href="search.html" /> 
@@ -27,7 +29,7 @@
             <a href="index.html" class="icon icon-home"> magnet
           </a>
               <div class="version">
-                0.1.dev1+g773074f
+                0.1.dev1+ga97a021
               </div>
 <div role="search">
   <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
@@ -91,24 +93,28 @@
 </li>
       <li><a href="magnet.html#magnet.core.core_loss_iGSE_arbitrary">core_loss_iGSE_arbitrary() (in module magnet.core)</a>
 </li>
-      <li><a href="magnet.html#magnet.core.core_loss_iGSE_sawtooth">core_loss_iGSE_sawtooth() (in module magnet.core)</a>
+      <li><a href="magnet.html#magnet.core.core_loss_iGSE_sinusoidal">core_loss_iGSE_sinusoidal() (in module magnet.core)</a>
 </li>
-      <li><a href="magnet.html#magnet.core.core_loss_iGSE_sine">core_loss_iGSE_sine() (in module magnet.core)</a>
+      <li><a href="magnet.html#magnet.core.core_loss_iGSE_trapezoidal">core_loss_iGSE_trapezoidal() (in module magnet.core)</a>
+</li>
+      <li><a href="magnet.html#magnet.core.core_loss_iGSE_triangular">core_loss_iGSE_triangular() (in module magnet.core)</a>
 </li>
   </ul></td>
   <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="magnet.html#magnet.core.core_loss_iGSE_trapezoid">core_loss_iGSE_trapezoid() (in module magnet.core)</a>
-</li>
       <li><a href="magnet.html#magnet.core.core_loss_ML_arbitrary">core_loss_ML_arbitrary() (in module magnet.core)</a>
 </li>
-      <li><a href="magnet.html#magnet.core.core_loss_ML_sawtooth">core_loss_ML_sawtooth() (in module magnet.core)</a>
+      <li><a href="magnet.html#magnet.core.core_loss_ML_sinusoidal">core_loss_ML_sinusoidal() (in module magnet.core)</a>
 </li>
-      <li><a href="magnet.html#magnet.core.core_loss_ML_sine">core_loss_ML_sine() (in module magnet.core)</a>
+      <li><a href="magnet.html#magnet.core.core_loss_ML_trapezoidal">core_loss_ML_trapezoidal() (in module magnet.core)</a>
 </li>
-      <li><a href="magnet.html#magnet.core.core_loss_ML_trapezoid">core_loss_ML_trapezoid() (in module magnet.core)</a>
+      <li><a href="magnet.html#magnet.core.core_loss_ML_triangular">core_loss_ML_triangular() (in module magnet.core)</a>
 </li>
       <li><a href="magnet.html#magnet.net.Net.count_parameters">count_parameters() (magnet.net.Net method)</a>
+
+      <ul>
+        <li><a href="magnet.html#magnet.net.Net_LSTM.count_parameters">(magnet.net.Net_LSTM method)</a>
 </li>
+      </ul></li>
   </ul></td>
 </tr></table>
 
@@ -124,7 +130,11 @@
 <table style="width: 100%" class="indextable genindextable"><tr>
   <td style="width: 33%; vertical-align: top;"><ul>
       <li><a href="magnet.html#magnet.net.Net.forward">forward() (magnet.net.Net method)</a>
+
+      <ul>
+        <li><a href="magnet.html#magnet.net.Net_LSTM.forward">(magnet.net.Net_LSTM method)</a>
 </li>
+      </ul></li>
   </ul></td>
 </tr></table>
 
@@ -225,6 +235,8 @@
       </ul></li>
       <li><a href="magnet.html#magnet.net.model">model() (in module magnet.net)</a>
 </li>
+      <li><a href="magnet.html#magnet.net.model_lstm">model_lstm() (in module magnet.net)</a>
+</li>
       <li>
     module
 
@@ -259,12 +271,22 @@
       <li><a href="magnet.html#magnet.net.Net">Net (class in magnet.net)</a>
 </li>
   </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="magnet.html#magnet.net.Net_LSTM">Net_LSTM (class in magnet.net)</a>
+</li>
+  </ul></td>
 </tr></table>
 
 <h2 id="P">P</h2>
 <table style="width: 100%" class="indextable genindextable"><tr>
   <td style="width: 33%; vertical-align: top;"><ul>
       <li><a href="magnet.utils.html#magnet.utils.config.ConfigSection.parse">parse() (magnet.utils.config.ConfigSection method)</a>
+</li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="magnet.html#magnet.core.plot_label">plot_label() (in module magnet.core)</a>
+</li>
+      <li><a href="magnet.html#magnet.core.plot_title">plot_title() (in module magnet.core)</a>
 </li>
   </ul></td>
 </tr></table>
@@ -289,7 +311,11 @@
 <table style="width: 100%" class="indextable genindextable"><tr>
   <td style="width: 33%; vertical-align: top;"><ul>
       <li><a href="magnet.html#magnet.net.Net.training">training (magnet.net.Net attribute)</a>
+
+      <ul>
+        <li><a href="magnet.html#magnet.net.Net_LSTM.training">(magnet.net.Net_LSTM attribute)</a>
 </li>
+      </ul></li>
   </ul></td>
 </tr></table>
 
